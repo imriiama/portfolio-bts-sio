@@ -4,6 +4,8 @@
 .e5-page h3 { font-size: 1.35rem; line-height: 1.35; }
 .e5-page .eyebrow { font-size: .875rem; }
 .e5-page .text-link { font-size: 1rem; }
+.e5-page .site-footer { font-size: 1rem; }
+.e5-page #navigation a { font-size: .9375rem; }
 .e5-page .block { padding-block: clamp(2.25rem, 4.5vw, 3.75rem); }
 .e5-page [id] { scroll-margin-top: 1.5rem; }
 .e5-intro { padding-block: clamp(2.5rem, 5vw, 4.5rem); }
@@ -26,19 +28,14 @@
 .e5-card p { max-width: 70ch; }
 .e5-tools { display: flex; flex-wrap: wrap; gap: .35rem .5rem; list-style: none; padding: 0; margin: .15rem 0 0; }
 .e5-tools li { border: 1px solid var(--beige); padding: .2rem .6rem; color: var(--chocolat); font-size: .9rem; }
-.e5-card-status { margin-top: auto; padding-top: 1rem; width: 100%; border-top: 1px solid var(--beige); color: var(--chocolat); font-size: .875rem; }
 .e5-enterprise { background: var(--beige); }
 .e5-page .e5-tempo { grid-column: 1 / -1; background: var(--chocolat); color: var(--ivoire); border-color: var(--chocolat); }
-.e5-tempo .e5-card-icon, .e5-tempo .e5-card-status { color: var(--beige); }
+.e5-tempo .e5-card-icon { color: var(--beige); }
 .e5-tempo h3 { font-family: var(--display); font-weight: 400; font-size: clamp(1.8rem, 3vw, 2.3rem); max-width: 38ch; }
 .e5-role { border-left: 1px solid var(--moka); padding-left: 1rem; margin-block: .3rem; }
 .e5-role h4 { font-size: .9rem; margin-bottom: .4rem; color: var(--beige); }
-.e5-missions { width: 100%; }
-.e5-missions summary { cursor: pointer; padding-block: .4rem; width: fit-content; text-underline-offset: .2em; text-decoration: underline; }
-.e5-missions ul { padding-left: 1.2rem; margin: .6rem 0; columns: 2; column-gap: 2rem; }
-.e5-missions li { break-inside: avoid; padding-bottom: .35rem; }
 .e5-enterprise .e5-card:last-child { grid-column: 1 / -1; }
-.e5-training { grid-template-columns: minmax(0, 1fr); }
+.e5-training > .e5-card:only-child { grid-column: 1 / -1; }
 .e5-back { padding-bottom: 2.5rem; }
 @media (max-width: 56rem) {
   .e5-intro-layout { gap: 2rem; }
@@ -48,6 +45,5 @@
 @media (max-width: 42rem) {
   .e5-intro-layout, .e5-tableau { grid-template-columns: minmax(0, 1fr); }
   .e5-intro-copy { padding: 1.5rem 0 0; border-left: 0; border-top: 1px solid var(--moka); }
-  .e5-missions ul { columns: 1; }
   .e5-document { padding: 1.5rem; }
 }
