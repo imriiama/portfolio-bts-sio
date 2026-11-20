@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Accueil | Portfolio BTS SIO SISR 2027</title>
     <link rel="stylesheet" href="assets/styles.css">
+    <link rel="stylesheet" href="assets/home.css">
     <script src="assets/menu.js" defer></script>
   </head>
-  <body>
+  <body class="home-page">
     <a class="skip" href="#contenu">Aller au contenu</a>
     <header class="site-header">
       <div class="wrap header-inner">
@@ -26,62 +27,151 @@
       </div>
     </header>
     <main id="contenu" tabindex="-1">
-      <section class="hero hero-home">
-        <div class="wrap hero-grid">
-          <div>
-            <p class="eyebrow">BTS SIO · Session 2027</p>
-            <h1>Portfolio professionnel — BTS SIO SISR</h1>
-            <p class="intro">Je suis étudiante en BTS SIO, option Solutions d’infrastructure, systèmes et réseaux, en alternance chez Énergie Jeunes.</p>
+      <section class="home-intro">
+        <div class="wrap home-intro-grid">
+          <div class="home-intro-copy">
+            <p class="eyebrow">Portfolio professionnel</p>
+            <h1>Maria <span>KIPANDA TULEKI</span></h1>
+            <p class="home-subtitle">BTS SIO — Option SISR | Session 2027</p>
+            <p>Je suis actuellement en deuxième année de BTS Services Informatiques aux Organisations, option Solutions d'infrastructure, systèmes et réseaux, en alternance chez Énergie Jeunes.</p>
+            <p>J'y occupe le poste de chargée de formation et support SI et j'assure également le rôle de référente RGPD.</p>
             <div class="actions">
-              <a class="button primary" href="e5.html#realisations">Découvrir mes réalisations</a>
-              <a class="button secondary" href="e5.html#tableau">Tableau de synthèse E5</a>
+              <a class="button primary" href="e5.html">Mes réalisations E5</a>
+              <a class="button secondary" href="e5.html#tableau">Tableau de synthèse</a>
             </div>
           </div>
-          <div class="network" aria-hidden="true">
-            <i></i><i></i><i></i><i></i><b></b><b></b><b></b><b></b>
-          </div>
+          <figure class="home-portrait">
+            <img src="assets/images/photo%20linkedin.JPEG" alt="Portrait de Maria Kipanda Tuleki" fetchpriority="high">
+          </figure>
         </div>
       </section>
-      <section class="wrap block about">
-        <h2>À propos</h2>
-        <p>Mon portfolio rassemble mes travaux en formation et les missions menées chez Énergie Jeunes. J’y présente des réalisations en gestion de parc, déploiement d’outils et sensibilisation à la cybersécurité.</p>
+
+      <nav class="home-sections wrap" aria-label="Rubriques de l’accueil">
+        <ul>
+          <li><a href="#profil">Mon profil</a></li>
+          <li><a href="#realisations">Réalisations E5</a></li>
+          <li><a href="#formations">Formations</a></li>
+          <li><a href="#experience">Expérience</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#cv">Mon CV</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <section class="wrap home-section home-split" id="profil">
+        <h2>Mon profil</h2>
+        <div class="home-prose">
+          <h3>À propos de moi</h3>
+          <p>Je suis actuellement en deuxième année de BTS Services Informatiques aux Organisations (SIO), option Solutions d'infrastructure, systèmes et réseaux (SISR), à IRIS Paris.</p>
+          <p>J'effectue mon alternance chez Énergie Jeunes en tant que chargée de formation et support SI, et j'assure également le rôle de référente RGPD.</p>
+          <p>Au cours de mon alternance, j'interviens sur le support informatique, la gestion des outils numériques et différents projets liés au système d'information. Je développe également mes compétences en gestion de projet SI grâce à un accompagnement professionnel.</p>
+          <p>Ce portfolio regroupe les réalisations effectuées pendant mon BTS, en formation et en entreprise, ainsi que les documentations associées.</p>
+        </div>
       </section>
-      <section class="wrap block">
-        <h2>Réalisations sélectionnées</h2>
-        <div class="projects">
-          <article class="project featured">
+
+      <section class="home-interests">
+        <div class="wrap home-section">
+          <h2>Mes centres d’intérêt</h2>
+          <ul class="home-interest-list">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="6" rx="1"/><path d="M12 9v5M5 19v-5h14v5"/><rect x="2" y="19" width="6" height="3"/><rect x="16" y="19" width="6" height="3"/></svg><span>Systèmes &amp; réseaux</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2 3 6v6c0 5 9 10 9 10s9-5 9-10V6Z"/><path d="m8 12 3 3 5-6"/></svg><span>Cybersécurité</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="m6 9 2 2 3-4m2 2h5M6 16h4m3 0h5"/></svg><span>Gestion de projet SI</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="6" width="12" height="12" rx="2"/><path d="M9 2v4m6-4v4M9 18v4m6-4v4M2 9h4m-4 6h4m12-6h4m-4 6h4"/><path d="m10 14 2-4 2 4m-3-1h2"/></svg><span>Intelligence artificielle</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4" ry="9"/><path d="M3 12h18M5 6.5h14M5 17.5h14"/></svg><span>Voyages</span></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="wrap home-section" id="realisations">
+        <div class="home-section-heading">
+          <h2>Mes réalisations E5</h2>
+          <a class="text-link" href="e5.html#realisations">Toutes les réalisations</a>
+        </div>
+        <div class="home-project-list">
+          <article>
             <p class="eyebrow">Entreprise</p>
-            <h3>TEMPO</h3>
-            <p>Pilotage opérationnel et déploiement d’un outil informatique en entreprise.</p>
-            <a class="text-link" href="e5.html#tempo">Voir la réalisation <span aria-hidden="true">↗</span></a>
+            <h3><a href="e5.html#tempo">TEMPO</a></h3>
+            <p>Pilotage opérationnel et déploiement d'un outil informatique en entreprise.</p>
           </article>
-          <article class="project">
+          <article>
             <p class="eyebrow">Entreprise</p>
-            <h3>Pressoir numérique</h3>
-            <p>Évolution d’un outil interne reposant notamment sur Google Sheets, Google Forms et Apps Script.</p>
-            <a class="text-link" href="e5.html#pressoir">Voir la réalisation <span aria-hidden="true">↗</span></a>
+            <h3><a href="e5.html#pressoir">Pressoir numérique</a></h3>
+            <p>Évolution d'un outil interne reposant notamment sur Google Sheets, Google Forms et Apps Script.</p>
           </article>
-          <article class="project">
+          <article>
             <p class="eyebrow">Entreprise</p>
-            <h3>Formation cybersécurité</h3>
-            <p>Conception et déploiement d’un dispositif de sensibilisation à la cybersécurité pour les collaborateurs.</p>
-            <a class="text-link" href="e5.html#sensibilisation">Voir la réalisation <span aria-hidden="true">↗</span></a>
+            <h3><a href="e5.html#sensibilisation">Formation cybersécurité</a></h3>
+            <p>Conception et déploiement d'un dispositif de sensibilisation à la cybersécurité pour les collaborateurs.</p>
           </article>
-          <article class="project">
+          <article>
             <p class="eyebrow">Formation</p>
-            <h3>OCS Inventory et GLPI</h3>
-            <p>Travaux pratiques de gestion du patrimoine informatique, d’inventaire et de support.</p>
-            <a class="text-link" href="e5.html#inventaire">Voir la réalisation <span aria-hidden="true">↗</span></a>
+            <h3><a href="e5.html#inventaire">OCS Inventory et GLPI</a></h3>
+            <p>Travaux pratiques de gestion du patrimoine informatique, d'inventaire et de support.</p>
           </article>
         </div>
       </section>
-      <section class="band">
-        <div class="wrap block about">
-          <h2>Mon parcours</h2>
-          <div>
-            <p>Je prépare le BTS SIO SISR en alternance. Retrouve les rubriques consacrées à ma formation, à mes expériences et à mon CV.</p>
-            <a class="text-link" href="parcours.html">Voir mon parcours</a>
-          </div>
+
+      <section class="wrap home-section home-split" id="formations">
+        <h2>Formations &amp; diplômes</h2>
+        <div class="home-timeline">
+          <article>
+            <p class="home-meta">2025–2027 · En cours</p>
+            <h3>BTS Services Informatiques aux Organisations — Option SISR</h3>
+            <p>IRIS Paris</p>
+          </article>
+          <article>
+            <h3>Baccalauréat général</h3>
+            <p>Lycée Plaine de Neauphle</p>
+            <p>Mention Assez Bien · Mention européenne</p>
+            <p>Spécialités · mathématiques, physique-chimie et LLCE anglais</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="home-experience" id="experience">
+        <div class="wrap home-section home-split">
+          <h2>Mon expérience professionnelle</h2>
+          <article class="home-prose">
+            <p class="home-meta">Septembre 2025 – Aujourd'hui | Alternance</p>
+            <h3>Énergie Jeunes</h3>
+            <p class="home-role">Chargée de formation et support SI · Référente RGPD</p>
+            <p>Support informatique, gestion des outils et des accès, formation des utilisateurs, sensibilisation à la cybersécurité et participation aux projets liés au système d'information.</p>
+            <a class="text-link" href="entreprise.html">Découvrir mes missions chez Énergie Jeunes</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="wrap home-section home-split" id="certifications">
+        <h2>Mes certifications</h2>
+        <div class="home-certifications">
+          <article>
+            <p class="home-meta">Allemand · Septembre 2019</p>
+            <h3>Goethe-Zertifikat B1</h3>
+            <p>Goethe-Institut</p>
+          </article>
+          <article>
+            <p class="home-meta">Anglais · Septembre 2021</p>
+            <h3>Cambridge English Certificate B1</h3>
+          </article>
+        </div>
+      </section>
+
+      <section class="wrap home-section home-split" id="cv">
+        <h2>Mon CV</h2>
+        <div class="home-cv">
+          <!-- Intégrer ici l’aperçu et le lien du nouveau PDF après réception du CV actualisé. -->
+          <p class="home-meta">Actualisation en cours</p>
+          <p>Mon CV actualisé sera disponible ici prochainement.</p>
+        </div>
+      </section>
+
+      <section class="home-contact" id="contact">
+        <div class="wrap home-section home-split">
+          <h2>Contact</h2>
+          <dl>
+            <div><dt>E-mail</dt><dd><a href="mailto:maria.kipandatuleki@gmail.com">maria.kipandatuleki@gmail.com</a></dd></div>
+            <div><dt>LinkedIn</dt><dd><a href="https://www.linkedin.com/in/maria-kipanda-tuleki/">Maria Kipanda Tuleki</a></dd></div>
+          </dl>
         </div>
       </section>
     </main>
@@ -90,7 +180,7 @@
         <p>Portfolio BTS SIO SISR · Session 2027</p>
         <ul aria-label="Profils professionnels">
           <li><a href="https://github.com/imriiama">GitHub</a></li>
-          <li><span>LinkedIn · À compléter</span></li>
+          <li><a href="https://www.linkedin.com/in/maria-kipanda-tuleki/">LinkedIn</a></li>
         </ul>
       </div>
     </footer>
