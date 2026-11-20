@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Épreuve E5 | Portfolio BTS SIO SISR 2027</title>
     <link rel="stylesheet" href="assets/styles.css">
+    <link rel="stylesheet" href="assets/e5.css">
     <script src="assets/menu.js" defer></script>
   </head>
-  <body>
+  <body class="e5-page">
     <a class="skip" href="#contenu">Aller au contenu</a>
     <header class="site-header">
       <div class="wrap header-inner">
@@ -26,63 +27,220 @@
       </div>
     </header>
     <main id="contenu" tabindex="-1">
-      <section class="hero ">
-        <div class="wrap hero-grid">
+      <section class="hero e5-intro">
+        <div class="wrap e5-intro-layout">
           <div>
             <p class="eyebrow">BTS SIO SISR · Session 2027</p>
             <h1>Épreuve E5</h1>
             <p class="intro">Support et mise à disposition de services informatiques</p>
           </div>
-        </div>
-      </section>
-      <section class="wrap block">
-        <h2>Présentation de l’épreuve</h2>
-        <p>L’épreuve E5 porte sur le support et la mise à disposition de services informatiques. Cette page réunit les réalisations de mon parcours et les preuves qui les accompagnent.</p>
-      </section>
-      <section class="wrap block" id="tableau">
-        <h2>Tableau de synthèse E5</h2>
-        <div class="panel">
-          <p>Tableau de synthèse officiel</p>
-          <p class="pending">À compléter</p>
-        </div>
-      </section>
-      <section class="wrap block" id="realisations">
-        <h2>Réalisations</h2>
-        <div class="collection">
-          <h3>Réalisations en formation</h3>
-          <div class="projects">
-            <article class="project" id="inventaire">
-              <p class="eyebrow">Formation</p>
-              <h4>OCS Inventory et GLPI</h4>
-              <p>Travaux pratiques de gestion du patrimoine informatique, d’inventaire et de support.</p>
-              <p class="pending">Documentation et preuves · À compléter</p>
-            </article>
-          </div>
-        </div>
-        <div class="collection">
-          <h3>Réalisations en entreprise</h3>
-          <div class="projects">
-            <article class="project" id="tempo">
-              <p class="eyebrow">Entreprise</p>
-              <h4>TEMPO</h4>
-              <p>Pilotage opérationnel et déploiement d’un outil informatique en entreprise.</p>
-              <p class="pending">Documentation et preuves · À compléter</p>
-            </article>
-            <article class="project" id="pressoir">
-              <p class="eyebrow">Entreprise</p>
-              <h4>Pressoir numérique</h4>
-              <p>Évolution d’un outil interne reposant notamment sur Google Sheets, Google Forms et Apps Script.</p>
-              <p class="pending">Documentation et preuves · À compléter</p>
-            </article>
-            <article class="project" id="sensibilisation">
-              <p class="eyebrow">Entreprise</p>
-              <h4>Formation cybersécurité</h4>
-              <p>Conception et déploiement d’un dispositif de sensibilisation à la cybersécurité pour les collaborateurs.</p>
-              <p class="pending">Documentation et preuves · À compléter</p>
-            </article>
+          <div class="e5-intro-copy">
+            <p>L'épreuve E5 du BTS SIO évalue les compétences liées au support et à la mise à disposition de services informatiques.</p>
+            <p>Cette page présente les réalisations effectuées pendant ma formation et mon alternance, ainsi que les compétences mobilisées dans chaque situation professionnelle.</p>
           </div>
         </div>
       </section>
+
+      <section class="wrap block e5-tableau" id="tableau" aria-labelledby="tableau-titre">
+        <div class="e5-section-copy">
+          <h2 id="tableau-titre">Tableau de synthèse des réalisations professionnelles</h2>
+          <p>Ce document récapitule les réalisations professionnelles effectuées au cours de ma formation et les compétences du référentiel mobilisées.</p>
+        </div>
+        <div class="e5-document">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 3h7l4 4v14H7zM14 3v5h4M10 12h5m-5 4h5"/></svg>
+          <p>Document à venir</p>
+          <!-- À réception du PDF officiel, intégrer ici son aperçu et ses liens relatifs d’ouverture et de téléchargement. -->
+        </div>
+      </section>
+
+      <div id="realisations">
+        <section class="wrap block e5-collection" aria-labelledby="formation-titre">
+          <div class="e5-section-copy">
+            <h2 id="formation-titre">Réalisations en formation</h2>
+            <p>Ces réalisations ont été effectuées dans le cadre de ma formation en BTS SIO option SISR.</p>
+          </div>
+          <div class="projects e5-training">
+            <article class="project e5-card" id="inventaire" aria-labelledby="inventaire-titre">
+              <!-- Remplacer ce repère graphique par une image réelle avec un texte alternatif pertinent, lorsqu’elle sera disponible. -->
+              <div class="e5-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="6" rx="1"/><path d="M12 9v5M5 18v-4h14v4"/><rect x="2" y="18" width="6" height="4"/><rect x="16" y="18" width="6" height="4"/></svg></div>
+              <h3 id="inventaire-titre">OCS Inventory et GLPI : gestion de parc informatique</h3>
+              <p>Mise en place d'une solution d'inventaire et de gestion de parc informatique en environnement virtualisé.</p>
+              
+              <ul class="e5-tools" aria-label="Technologies et outils"><li>OCS Inventory</li><li>GLPI</li><li>Debian</li><li>MariaDB</li><li>VMware</li></ul>
+              <!-- Ajouter ici les compétences validées, puis les liens réels vers la fiche et les documentations. -->
+              <div class="e5-card-status">
+                <p>Compétences E5 à valider</p>
+                <p>Fiche et documentation à venir</p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="e5-enterprise" aria-labelledby="entreprise-titre">
+          <div class="wrap block e5-collection">
+            <div class="e5-section-copy">
+              <h2 id="entreprise-titre">Réalisations en entreprise</h2>
+              <p>Ces réalisations ont été menées au cours de mon alternance chez Énergie Jeunes, où j'occupe le poste de chargée de formation et support SI et assure également le rôle de référente RGPD.</p>
+            </div>
+            <div class="projects">
+            <article class="project e5-card e5-tempo" id="tempo" aria-labelledby="tempo-titre">
+              <!-- Remplacer ce repère graphique par une image réelle avec un texte alternatif pertinent, lorsqu’elle sera disponible. -->
+              <div class="e5-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="7" width="18" height="14" rx="2"/><path d="M8 7V3h8v4M3 12h18m-11 0v3h4v-3"/></svg></div>
+              <h3 id="tempo-titre">TEMPO : gestion de projet SI et déploiement d'un outil métier</h3>
+              <p>Participation à la gestion du projet TEMPO : analyse des besoins, suivi des évolutions, coordination avec les parties prenantes, accompagnement du déploiement et formation des utilisateurs.</p>
+              <div class="e5-role"><h4>Mon rôle</h4><p>Assistante cheffe de projet SI, support et formation des utilisateurs.</p></div>
+                <details class="e5-missions">
+                  <summary>Missions connues</summary>
+                  <ul>
+                    <li>Participation aux réunions de suivi.</li>
+                    <li>Analyse des besoins des utilisateurs.</li>
+                    <li>Contribution à la priorisation des évolutions.</li>
+                    <li>Coordination avec les parties prenantes et le prestataire.</li>
+                    <li>Suivi des anomalies et des demandes d'évolution.</li>
+                    <li>Formation et accompagnement des utilisateurs.</li>
+                    <li>Participation à l'amélioration continue.</li>
+                  </ul>
+                </details>
+              
+              <!-- Ajouter ici les compétences validées, puis les liens réels vers la fiche et les documentations. -->
+              <div class="e5-card-status">
+                <p>Compétences E5 à valider</p>
+                <p>Fiche et documentation à venir</p>
+              </div>
+            </article>
+            <article class="project e5-card" id="pressoir" aria-labelledby="pressoir-titre">
+              <!-- Remplacer ce repère graphique par une image réelle avec un texte alternatif pertinent, lorsqu’elle sera disponible. -->
+              <div class="e5-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="7" width="18" height="14" rx="2"/><path d="M8 7V3h8v4M3 12h18m-11 0v3h4v-3"/></svg></div>
+              <h3 id="pressoir-titre">Pressoir numérique : évolution d'un outil interne</h3>
+              <p>Évolution des questionnaires et des outils de collecte, réalisation de tests fonctionnels et préparation de nouvelles versions de l'outil.</p>
+              
+              <ul class="e5-tools" aria-label="Technologies et outils"><li>Google Forms</li><li>Google Sheets</li><li>Google Apps Script</li></ul>
+              <!-- Ajouter ici les compétences validées, puis les liens réels vers la fiche et les documentations. -->
+              <div class="e5-card-status">
+                <p>Compétences E5 à valider</p>
+                <p>Fiche et documentation à venir</p>
+              </div>
+            </article>
+            <article class="project e5-card" id="sensibilisation" aria-labelledby="sensibilisation-titre">
+              <!-- Remplacer ce repère graphique par une image réelle avec un texte alternatif pertinent, lorsqu’elle sera disponible. -->
+              <div class="e5-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="7" width="18" height="14" rx="2"/><path d="M8 7V3h8v4M3 12h18m-11 0v3h4v-3"/></svg></div>
+              <h3 id="sensibilisation-titre">Sensibilisation à la cybersécurité et charte informatique</h3>
+              <p>Conception et déploiement d'une formation de sensibilisation à la cybersécurité destinée aux collaborateurs, accompagnée de la rédaction d'une charte informatique.</p>
+              <p>Préparation des modules, évaluation finale et suivi des participants.</p>
+              <ul class="e5-tools" aria-label="Technologies et outils"><li>Google Classroom</li><li>Google Workspace</li></ul>
+              <!-- Ajouter ici les compétences validées, puis les liens réels vers la fiche et les documentations. -->
+              <div class="e5-card-status">
+                <p>Compétences E5 à valider</p>
+                <p>Fiche et documentation à venir</p>
+              </div>
+            </article>
+            <article class="project e5-card" id="support" aria-labelledby="support-titre">
+              <!-- Remplacer ce repère graphique par une image réelle avec un texte alternatif pertinent, lorsqu’elle sera disponible. -->
+              <div class="e5-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="7" width="18" height="14" rx="2"/><path d="M8 7V3h8v4M3 12h18m-11 0v3h4v-3"/></svg></div>
+              <h3 id="support-titre">Support informatique et gestion du parc</h3>
+              <p>Assistance informatique aux utilisateurs, traitement des incidents et des demandes, suivi des équipements et coordination avec les prestataires techniques.</p>
+              
+              
+              <!-- Ajouter ici les compétences validées, puis les liens réels vers la fiche et les documentations. -->
+              <div class="e5-card-status">
+                <p>Compétences E5 à valider</p>
+                <p>Fiche et documentation à venir</p>
+              </div>
+            </article>
+            <article class="project e5-card" id="acces" aria-labelledby="acces-titre">
+              <!-- Remplacer ce repère graphique par une image réelle avec un texte alternatif pertinent, lorsqu’elle sera disponible. -->
+              <div class="e5-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="7" width="18" height="14" rx="2"/><path d="M8 7V3h8v4M3 12h18m-11 0v3h4v-3"/></svg></div>
+              <h3 id="acces-titre">Gestion des comptes et des accès</h3>
+              <p>Gestion des comptes utilisateurs, des habilitations et des accès aux outils numériques de l'organisation.</p>
+              
+              <ul class="e5-tools" aria-label="Technologies et outils"><li>Google Workspace</li><li>Outils internes d'Énergie Jeunes</li></ul>
+              <!-- Ajouter ici les compétences validées, puis les liens réels vers la fiche et les documentations. -->
+              <div class="e5-card-status">
+                <p>Compétences E5 à valider</p>
+                <p>Fiche et documentation à venir</p>
+              </div>
+            </article>
+            <article class="project e5-card" id="cartographie" aria-labelledby="cartographie-titre">
+              <!-- Remplacer ce repère graphique par une image réelle avec un texte alternatif pertinent, lorsqu’elle sera disponible. -->
+              <div class="e5-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="7" width="18" height="14" rx="2"/><path d="M8 7V3h8v4M3 12h18m-11 0v3h4v-3"/></svg></div>
+              <h3 id="cartographie-titre">Cartographie du système d'information</h3>
+              <p>Réalisation d'une cartographie des outils, des acteurs et des interactions du système d'information de l'association.</p>
+              
+              
+              <!-- Ajouter ici les compétences validées, puis les liens réels vers la fiche et les documentations. -->
+              <div class="e5-card-status">
+                <p>Compétences E5 à valider</p>
+                <p>Fiche et documentation à venir</p>
+              </div>
+            </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="wrap block e5-collection" aria-labelledby="personnel-titre">
+          <div class="e5-section-copy">
+            <h2 id="personnel-titre">Réalisations personnelles</h2>
+            <p>En parallèle de mon parcours professionnel, j'ai également réalisé plusieurs projets informatiques, notamment dans le développement de jeux vidéo et la création web.</p>
+          </div>
+          <div class="projects">
+            <article class="project e5-card" id="lunacy" aria-labelledby="lunacy-titre">
+              <!-- Remplacer ce repère graphique par une image réelle avec un texte alternatif pertinent, lorsqu’elle sera disponible. -->
+              <div class="e5-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 6-6 6 6 6m8-12 6 6-6 6M14 3l-4 18"/></svg></div>
+              <h3 id="lunacy-titre">LUNACY : jeu mobile 2D</h3>
+              <p>Développement d'un jeu mobile 2D avec Unity et C#, dans le cadre d'un projet en équipe, puis publication sur Google Play.</p>
+              
+              <ul class="e5-tools" aria-label="Technologies et outils"><li>Unity</li><li>C#</li></ul>
+              <!-- Ajouter ici les compétences validées, puis les liens réels vers la fiche et les documentations. -->
+              <div class="e5-card-status">
+                <p>Compétences E5 à valider</p>
+                <p>Fiche et documentation à venir</p>
+              </div>
+            </article>
+            <article class="project e5-card" id="roulette-russe" aria-labelledby="roulette-russe-titre">
+              <!-- Remplacer ce repère graphique par une image réelle avec un texte alternatif pertinent, lorsqu’elle sera disponible. -->
+              <div class="e5-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 6-6 6 6 6m8-12 6 6-6 6M14 3l-4 18"/></svg></div>
+              <h3 id="roulette-russe-titre">Roulette Russe : développement d'un jeu vidéo</h3>
+              <p>Participation au développement d'un jeu PC, notamment à la programmation des mécaniques de jeu et de l'interface utilisateur.</p>
+              
+              <ul class="e5-tools" aria-label="Technologies et outils"><li>Unity</li><li>C#</li></ul>
+              <!-- Ajouter ici les compétences validées, puis les liens réels vers la fiche et les documentations. -->
+              <div class="e5-card-status">
+                <p>Compétences E5 à valider</p>
+                <p>Fiche et documentation à venir</p>
+              </div>
+            </article>
+            <article class="project e5-card" id="jeu-2048" aria-labelledby="jeu-2048-titre">
+              <!-- Remplacer ce repère graphique par une image réelle avec un texte alternatif pertinent, lorsqu’elle sera disponible. -->
+              <div class="e5-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 6-6 6 6 6m8-12 6 6-6 6M14 3l-4 18"/></svg></div>
+              <h3 id="jeu-2048-titre">2048 : programmation en C++</h3>
+              <p>Réalisation d'un jeu 2048 en C++ dans le cadre d'un projet de programmation orientée objet.</p>
+              
+              <ul class="e5-tools" aria-label="Technologies et outils"><li>C++</li></ul>
+              <!-- Ajouter ici les compétences validées, puis les liens réels vers la fiche et les documentations. -->
+              <div class="e5-card-status">
+                <p>Compétences E5 à valider</p>
+                <p>Fiche et documentation à venir</p>
+              </div>
+            </article>
+            <article class="project e5-card" id="portfolio" aria-labelledby="portfolio-titre">
+              <!-- Remplacer ce repère graphique par une image réelle avec un texte alternatif pertinent, lorsqu’elle sera disponible. -->
+              <div class="e5-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 6-6 6 6 6m8-12 6 6-6 6M14 3l-4 18"/></svg></div>
+              <h3 id="portfolio-titre">Portfolio BTS SIO SISR</h3>
+              <p>Conception et publication d'un site web personnel présentant mon parcours, mes compétences et mes réalisations professionnelles.</p>
+              
+              <ul class="e5-tools" aria-label="Technologies et outils"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>GitHub Pages</li></ul>
+              <!-- Ajouter ici les compétences validées, puis les liens réels vers la fiche et les documentations. -->
+              <div class="e5-card-status">
+                <p>Compétences E5 à valider</p>
+                <p>Fiche et documentation à venir</p>
+              </div>
+            </article>
+          </div>
+        </section>
+      </div>
+      <div class="wrap e5-back">
+        <a class="text-link" href="index.html">Retour à l’accueil</a>
+      </div>
     </main>
     <footer class="site-footer">
       <div class="wrap footer-inner">
