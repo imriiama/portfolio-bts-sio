@@ -1,5 +1,8 @@
 /* Styles propres à l’accueil pour préserver les cinq autres pages. */
-.home-page .eyebrow { font-size: .8rem; }
+.home-page { font-size: 1.0625rem; line-height: 1.7; }
+.home-page .eyebrow { font-size: .875rem; }
+.home-page .text-link, .home-page .button, .home-page .site-footer { font-size: 1rem; }
+.home-page #navigation a { font-size: .9375rem; }
 .home-page h2 { font-size: clamp(1.9rem, 3.2vw, 2.65rem); }
 .home-intro { color: var(--ivoire); background: var(--espresso); }
 .home-intro-grid {
@@ -18,11 +21,7 @@
 .home-intro .secondary { color: var(--ivoire); }
 .home-portrait { margin: 0; padding: .65rem; border: 1px solid var(--moka); }
 .home-portrait img { display: block; width: 100%; height: auto; }
-.home-sections { border-bottom: 1px solid var(--beige); padding-block: 1.1rem; }
-.home-sections ul { gap: .2rem 1.7rem; }
-.home-sections a { color: var(--chocolat); font-size: .9rem; }
-.home-sections a:hover { color: var(--espresso); }
-.home-section { padding-block: clamp(2.5rem, 5vw, 4.5rem); scroll-margin-top: 1.5rem; }
+.home-section { padding-block: clamp(2.25rem, 4.5vw, 3.75rem); scroll-margin-top: 1.5rem; }
 .home-section + .home-section { border-top: 1px solid var(--beige); }
 .home-split { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 2fr); gap: 1.5rem 3rem; }
 .home-prose p + p, .home-prose h3 + p { margin-top: 1rem; }
@@ -41,7 +40,7 @@
 .home-timeline article + article { margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--beige); }
 .home-timeline h3 { line-height: 1.35; }
 .home-timeline h3 + p { margin-top: .6rem; }
-.home-meta { font-size: .9rem; color: var(--chocolat); margin-bottom: .7rem; }
+.home-meta { font-size: 1rem; color: var(--chocolat); margin-bottom: .7rem; }
 .home-experience { background: var(--chocolat); color: var(--ivoire); }
 .home-experience .home-meta { color: var(--beige); }
 .home-experience .text-link { color: var(--ivoire); }
@@ -54,7 +53,7 @@
 .home-contact { background: var(--beige); }
 .home-contact dl { margin: 0; }
 .home-contact dl > div + div { margin-top: 1.2rem; }
-.home-contact dt { font-size: .9rem; color: var(--chocolat); }
+.home-contact dt { font-size: 1rem; color: var(--chocolat); }
 .home-contact dd { margin: .15rem 0 0; overflow-wrap: anywhere; }
 .home-contact a { font-size: clamp(1rem, 2vw, 1.3rem); }
 @media (max-width: 56rem) {
@@ -68,7 +67,6 @@
   .home-intro-grid, .home-split { grid-template-columns: minmax(0, 1fr); }
   .home-intro h1 { font-size: clamp(2.7rem, 10vw, 3.6rem); }
   .home-portrait { width: min(100%, 19rem); justify-self: center; }
-  .home-sections ul { flex-direction: row; gap: .15rem 1.25rem; }
   .home-interest-list { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.6rem; }
   .home-project-list article { grid-template-columns: minmax(0, 1fr); }
   .home-certifications { grid-template-columns: minmax(0, 1fr); }
